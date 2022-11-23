@@ -240,6 +240,9 @@ if (Test-Path -Path Env:PYTHONHOME) {
 Copy-Item -Path Env:PATH -Destination Env:_OLD_VIRTUAL_PATH
 $Env:PATH = "$VenvExecDir$([System.IO.Path]::PathSeparator)$Env:PATH"
 
+$Env:TWILIO_ACCOUNT_SID= "ACa074d5e3ffa8dd5f2cd2a740218fe23e"
+$Env:TWILIO_AUTH_TOKEN= "5bea73159cfab1f3b97cef9abd31bc09"
+$Env:TWILIO_PHONE_NUMBER= "+12055768747"
 # SIG # Begin signature block
 # MIIeQwYJKoZIhvcNAQcCoIIeNDCCHjACAQExDzANBglghkgBZQMEAgEFADB5Bgor
 # BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
