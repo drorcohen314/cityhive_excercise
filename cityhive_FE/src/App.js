@@ -2,10 +2,8 @@ import React , {useState, useEffect }  from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import PhoneMockUp from './PhoneMockUp'
 import SendMessage from "./SendMessage";
-const serverIP = "127.0.0.1";
-const serverPort = "5000"
 function App() {
-  const url = "http://" + serverIP + ":" + serverPort +"/sms"
+  const url = "https://cityhive-drorcohen.herokuapp.com/sms"
 
   return (
     <div className="App">
